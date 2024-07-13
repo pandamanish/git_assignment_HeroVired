@@ -13,22 +13,22 @@
 
 # Question 2 : Git LFS 
 Went to Git Bash and created a repository from the main branch
-180  git checkout -b lfs
+git checkout -b lfs
 
 Installed a LFS on Gitbash a large files storage package
-181  git lfs install
+git lfs install
 
 Tracking the *.bin file
-182  git lfs track "C:\Users\17282\OneDrive\Documents\Python_Scripts\Assignments\git_assignment_HeroVired\bin_file\*.bin" #This will keep a track of all the files having extension of .bin
+git lfs track "C:\Users\17282\OneDrive\Documents\Python_Scripts\Assignments\git_assignment_HeroVired\bin_file\*.bin" #This will keep a track of all the files having extension of .bin
 
 Adding 
-183  git add .gitattributes
+git add .gitattributes
 
 Commiting the push of large Binary file
-184  git commit -m "added 200mb bin file"
+git commit -m "added 200mb bin file"
 
 Pushing the file
-185  git push
+git push
 
 Pushing the local repo lfs to remote side (origin)
-186  git push -u origin lfs
+git push -u origin lfs
